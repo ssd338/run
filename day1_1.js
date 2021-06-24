@@ -1,4 +1,11 @@
 // 객체
+
+let name = "choo"
+let woman = {
+  name,   // name: name과 같음 -> let name이 없다면 에러
+  age: 27
+};
+
 // 대괄호 표기법
 
 let fruit = prompt("과일이름","name");
